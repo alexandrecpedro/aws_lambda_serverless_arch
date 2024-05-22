@@ -30,10 +30,10 @@ aws lambda update-function-code --function-name <function_name> --s3-bucket <buc
 
 ## PROJECTS
 
-- [1][Get Random Message](./1-Getting_Started_AWS_Console/getRandomMessage/)
-- [2][GreetMe](./2-Serverless_Foundation-AWS_Lambda/greetme/)
-- [3][S3 Events Example - Image Resizing](./2-Serverless_Foundation-AWS_Lambda/s3-events-example-serverless-image-resizing/)
-- [4][Creating Lambda Function]()
+- [1] [Get Random Message](./1-Getting_Started_AWS_Console/getRandomMessage/)
+- [2] [GreetMe](./2-Serverless_Foundation-AWS_Lambda/greetme/)
+- [3] [S3 Events Example - Image Resizing](./2-Serverless_Foundation-AWS_Lambda/s3-events-example-serverless-image-resizing/)
+- [4] [Creating Lambda Function]()
 - []()
 
 ## BIBLIOGRAPHICAL REFERENCES
