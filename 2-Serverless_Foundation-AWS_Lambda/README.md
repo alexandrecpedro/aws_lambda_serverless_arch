@@ -2,8 +2,8 @@
 
 ## LIMITS / QUOTAS
 
-|:---------:|:---------:|:---------:|
 | Concepts | Limits | More details |
+| :---------: | :---------: | :---------: |
 | Memory Size | 128 MB to 3008 MB | 64 MB in increments |
 | Ephemeral Disk Capacity | 512 MB | |
 | Timeout | 900 seconds (15 min) | |
@@ -19,8 +19,8 @@ For more information, take a look at reference [1]
 
 ## PRICING
 
-|:---------:|:---------:|:---------:|
 | Pricing | Number of requests | Compute usage |
+| :---------: | :---------: | :---------: |
 | Free Tier | no cost | 1,000,000 requests / month | 400,000 GB-seconds / month |
 | | $ 0.2 / million requests | $0.0000166667 / GB-second |
 
@@ -28,8 +28,8 @@ For more information, take a look at reference [2]
 
 **Example**
 
-|:---------:|:---------:|:---------:|:---------:|
 | Usages | Memory (MB) | Number of requests (million/month) | Time of each running (ms) |
+| :---------: | :---------: | :---------: | :---------: |
 | Function 1 | 128 | 2 | 200 |
 | Function 2 | 512 | 3 | 300 |
 
