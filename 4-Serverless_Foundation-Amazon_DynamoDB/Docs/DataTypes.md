@@ -8,14 +8,7 @@
 
 | Scalar type | Characteristics | Examples |
 | :---------: | :---------: | :---------: |
-| String | 
-- Stores text data 
-- Only non-empty values 
-| 
-- "John" 
-- "California" 
-- "Fox in Socks" 
-|
+| String | <br>- Stores text data <br>- Only non-empty values | <br>- "John" <br>- "California" <br>- "Fox in Socks" |
 | | | |
 
 ## 2. SET TYPES
