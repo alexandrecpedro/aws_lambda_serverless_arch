@@ -38,10 +38,10 @@ DynamoDB supports 2 types of read operations:
 - Strongly consistent reads
 - Eventually consistent reads
 
-| Read Consistency | Details |
-| :--------------: | :-----: |
-| Strong Consistency | <ul><li>The most up-to-date data</li> <li>Must be requested explicitly</li></ul> |
-| Eventual Consistency | <ul><li>May or may not reflect the latest copy of data</li> <li>Default consistency for all operations</li> <li>50% cheaper</li></ul> |
+| Read Consistency | Details | Use Case |
+| :--------------: | :-----: | :------: |
+| Strong Consistency | <ul><li>The most up-to-date data</li> <li>Must be requested explicitly</li></ul> | When the application demands to read the latest copy of data irrespective of when it was written |
+| Eventual Consistency | <ul><li>May or may not reflect the latest copy of data</li> <li>Default consistency for all operations</li> <li>50% cheaper</li></ul> | By default, unless you specifically request a <bold>strongly consistent read</bold> |
 
 ##
 
