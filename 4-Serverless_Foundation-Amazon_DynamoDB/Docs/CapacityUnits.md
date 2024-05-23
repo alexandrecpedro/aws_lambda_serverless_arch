@@ -34,12 +34,10 @@
 
 ### 1. CAPACITY UNITS
 
-```
 | Capacity Unit | Abbreviation | Details |
 | :--------------: | :-----: | :------: |
 | Read Capacity Units | RCUs | <ul><li>1 RCU = 1 strongly consistent table read / second</li> <li>1 RCU = 2 eventually consistent table reads / second</li> <li>In blocks of 4 KB / item</li></ul> |
 | Write Capacity Units | WCUs | <ul><li>1 WCU = 1 table write / second</li> <li>In blocks of 1 KB / item</li></ul> |
-```
 
 *Ps1: DynamoDB rounds the item size upward to the next 4KB to determine the number of RCUs needed*
 *Ps2: DynamoDB rounds the item size upward to the next 1KB to determine the required WCUs*
