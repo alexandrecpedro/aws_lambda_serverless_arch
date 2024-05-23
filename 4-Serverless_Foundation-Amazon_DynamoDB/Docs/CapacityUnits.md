@@ -66,13 +66,13 @@
 
 ### 3. BURST CAPACITY
 
-```string
+---
 When your application attempts to use more capacity than what you've provisioned, DynamoDB provides some burst capacity, allowing overages
 
 However, if application continues to perform read and write operations beyond the provisioned capacity, then DynamoDB will start throttling our requests
 
 In anticipation of such potential scenario, DynamoDB reserves a portion of your unused capacity for future utilization
-```
+---
 
 | Details | Amount | Situation |
 | :-----: | :---------: | :-------: |
