@@ -41,7 +41,8 @@
 | Document type | Characteristics | Examples |
 | :---------: | :---------: | :---------: |
 | Lists | <ul><li>Ordered collection of values</li> <li>Can have multiple data types</li></ul> | <ul><li>["John", 128.88, "Apples"]</li></ul> |
-| Maps | <ul><li>Unordered collection of Key-Value pairs</li> <li>Ideal for storing JSON documents</li></ul> | ```json
+| Maps | <ul><li>Unordered collection of Key-Value pairs</li> <li>Ideal for storing JSON documents</li></ul> | 
+```object
 { 
   name: "John", 
   age: 22, 
@@ -50,4 +51,4 @@
     state: "Connecticut" 
   }
 }
-``` |
+```|
