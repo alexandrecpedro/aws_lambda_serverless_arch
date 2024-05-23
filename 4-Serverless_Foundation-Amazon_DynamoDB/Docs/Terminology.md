@@ -2,8 +2,8 @@
 
 ## TABLE COMPARISON
 
-|:-----------:|:--------:|
 | SQL / RDBMS | DynamoDB |
+| :-----------: | :--------: |
 | Tables | Tables |
 | Rows | Items |
 | Columns | Attributes |
@@ -14,21 +14,21 @@ Minimum One and Maximum Two Attributes |
 
 ## DYNAMODB
 
-**Primary Keys**
+### 1. PRIMARY KEYS
 
 - Mandatory attribute => partition_key (or hash_key)
 - Optional attribute => sort_key (or range_key)
 
-**Query the Database**
+### 2. QUERY THE DATABASE
 
 The best way to scan the database to query an specific data is using the primary key or table indexes
  - Cheaper
  - More efficient
 
-**Local Secondary Indexes**
+### 3. LOCAL SECONDARY INDEXES
 
 Indexes that share the partition_key with the primary key, but have a different sort_key
 
-**Global Secondary Indexes**
+### 4. GLOBAL SECONDARY INDEXES
 
 Indexes where partition_key is different from that of the primary key
