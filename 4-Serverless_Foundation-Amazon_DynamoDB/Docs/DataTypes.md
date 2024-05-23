@@ -41,7 +41,7 @@
 | Document type | Characteristics | Examples |
 | :---------: | :---------: | :---------: |
 | Lists | <ul><li>Ordered collection of values</li> <li>Can have multiple data types</li></ul> | <ul><li>["John", 128.88, "Apples"]</li></ul> |
-| Maps | <ul><li>Unordered collection of Key-Value pairs</li> <li>Ideal for storing JSON documents</li></ul> | 
+| Maps | <ul><li>Unordered collection of Key-Value pairs</li> <li>Ideal for storing JSON documents</li></ul> | <pre style="white-space: pre-wrap;">
 ```object
 { 
   name: "John", 
@@ -50,4 +50,6 @@
     city: "Stamford", 
     state: "Connecticut" 
   }
-}|
+}
+```
+</pre>|
