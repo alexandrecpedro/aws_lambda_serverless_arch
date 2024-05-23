@@ -7,8 +7,7 @@
 | Tables | Tables |
 | Rows | Items |
 | Columns | Attributes |
-| Primary Keys - Multicolumn and Optional | Primary Keys - Mandatory
-Minimum One and Maximum Two Attributes |
+| Primary Keys - Multicolumn and Optional | Primary Keys - Mandatory <br>Minimum One and Maximum Two Attributes |
 | Indexes | Local Secondary Indexes |
 | Views | Global Secondary Indexes |
 
