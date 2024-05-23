@@ -51,18 +51,22 @@
 **Part 1 - Provisioned Capacity**
 
 (A) Read throughput with strong consistency = 4 KB * 10 RCUs * (1 read / second / RCU) = 40 KB of data / second
+
 (B) Read throughput = 4 KB * 10 RCUs * (2 read / second / RCU) = 80 KB of data / second
+
 (C) Write throughput = 1 KB * 10 WCUs * (1 write / second / WCU) = 10 KB of data / second
 
 **Part 2 - Required Capacity for Average Item Size**
 
 (A) RCUs to read 10 KB of data per second with strong consistency = 10 KB / (4 KB / RCU) = 2.5 => rounded up => 3 RCUs
+
 (B) RCUs to read 10 KB of data per second = 10 KB / [ (4 KB / RCU) * 2 ] = 1.25 => rounded up => 2 RCUs
+
 (C) WCUs to write 10 KB of data per second = 10 KB / ( 1 KB / WCU) = 10 WCUs
 
 ### 3. BURST CAPACITY
 
-```bash
+```string
 When your application attempts to use more capacity than what you've provisioned, DynamoDB provides some burst capacity, allowing overages
 
 However, if application continues to perform read and write operations beyond the provisioned capacity, then DynamoDB will start throttling our requests
