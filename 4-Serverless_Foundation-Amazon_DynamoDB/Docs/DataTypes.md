@@ -50,5 +50,4 @@
     city: "Stamford", 
     state: "Connecticut" 
   }
-}
-```|
+}|
