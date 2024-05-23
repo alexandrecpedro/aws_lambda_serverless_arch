@@ -26,9 +26,9 @@
 
 | Set Type | Examples |
 | :---------: | :---------: |
-| <ul><li>string set</li></ul> | <ul><li>["Apples", "Oranges", "Grapes"]</li></ul>|
-| <ul><li>number set</li></ul> | <ul><li>[1, 2.6, -28, 88, 51]</li></ul>|
-| <ul><li>binary set</li></ul> | <ul><li>["SGVsbG8=", "V29ybGQ="]</li></ul>|
+| string set | ["Apples", "Oranges", "Grapes"]|
+| number set | [1, 2.6, -28, 88, 51]|
+| binary set | ["SGVsbG8=", "V29ybGQ="]|
 
 ## 3. DOCUMENT TYPES
 
