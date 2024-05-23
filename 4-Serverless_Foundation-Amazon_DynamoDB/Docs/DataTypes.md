@@ -33,4 +33,19 @@
 ## 3. DOCUMENT TYPES
 
 - Complex structure with nested attributes
- - e.g. list and map
+- Nesting up to 32 levels deep
+  - e.g. lists and maps
+- Only non-empty values within lists and maps
+- Empty lists and maps are allowed
+
+| Document type | Characteristics | Examples |
+| :---------: | :---------: | :---------: |
+| Lists | <ul><li>Ordered collection of values</li> <li>Can have multiple data types</li></ul> | <ul><li>["John", 128.88, "Apples"]</li></ul> |
+| Maps | <ul><li>Unordered collection of Key-Value pairs</li> <li>Ideal for storing JSON documents</li></ul> | <ul><li>{
+  name: "John",
+  age: 22,
+  address: {
+    city: "Stamford",
+    state: "Connecticut"
+  }
+}</li></ul> |
