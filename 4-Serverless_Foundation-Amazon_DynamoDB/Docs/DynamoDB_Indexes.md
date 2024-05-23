@@ -8,8 +8,8 @@ Any DynamoDB index can either have a simple key or a composite one
 
 | Index Key | Details |
 | :-----: | :-----: |
-| Simple Key | <ul><li>Partition key (hash key)</li></ul> | |
-| Composite Key | <ul><li>Partition key (hash key)</li> <li>Sort key (range key)</li></ul> | |
+| Simple Key | Partition key (hash key) |
+| Composite Key | <ul><li>Partition key (hash key)</li> <li>Sort key (range key)</li></ul> |
 
 - <strong>Partition key</strong>
   - decides the target partition (where the corresponding item would be stored)
