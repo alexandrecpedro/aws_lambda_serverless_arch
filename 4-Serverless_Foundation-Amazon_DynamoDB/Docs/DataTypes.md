@@ -16,9 +16,19 @@
 
 ## 2. SET TYPES
 
-| Overview | Examples |
+- Multiple scalar values
+- Unordered collection of strings, numbers or binary
+  - e.g. string set, number set and binary set
+- Only non-empty values
+- No duplicates allowed
+- No empty sets allowed
+- All values must be of same scalar type
+
+| Set Type | Examples |
 | :---------: | :---------: |
-| <ul><li>Multiple scalar values</li> <li>Unordered collection of strings, numbers or binary <ol><li>string set</li> <li>number set</li> <li>binary set</li></ol></li> <li>Only non-empty values</li> <li>No duplicates allowed</li> <li>No empty sets allowed</li> <li>All values must be of same scalar type</li></ul> | <ul><li>["Apples", "Oranges", "Grapes"]</li> <li>[1, 2.6, -28, 88, 51]</li> <li>["SGVsbG8=", "V29ybGQ="]</li></ul>|
+| <ul><li>string set</li></ul> | <ul><li>["Apples", "Oranges", "Grapes"]</li></ul>|
+| <ul><li>number set</li></ul> | <ul><li>[1, 2.6, -28, 88, 51]</li></ul>|
+| <ul><li>binary set</li></ul> | <ul><li>["SGVsbG8=", "V29ybGQ="]</li></ul>|
 
 ## 3. DOCUMENT TYPES
 
