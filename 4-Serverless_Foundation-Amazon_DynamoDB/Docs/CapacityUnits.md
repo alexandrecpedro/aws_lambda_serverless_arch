@@ -82,7 +82,7 @@ In anticipation of such potential scenario, DynamoDB reserves a portion of your 
 
 ### 4. CAPACITY LIMITS
 
-**Scaling**
+#### SCALING
 
 - Scaling Up: As and when needed
 - Scaling Down: Up to 4 times per calendar day
