@@ -41,11 +41,13 @@
 | Document type | Characteristics | Examples |
 | :---------: | :---------: | :---------: |
 | Lists | <ul><li>Ordered collection of values</li> <li>Can have multiple data types</li></ul> | <ul><li>["John", 128.88, "Apples"]</li></ul> |
-| Maps | <ul><li>Unordered collection of Key-Value pairs</li> <li>Ideal for storing JSON documents</li></ul> | { 
+| Maps | <ul><li>Unordered collection of Key-Value pairs</li> <li>Ideal for storing JSON documents</li></ul> | ```json
+{ 
   name: "John", 
   age: 22, 
   address: { 
     city: "Stamford", 
     state: "Connecticut" 
   }
-} |
+}
+``` |
