@@ -6,10 +6,10 @@
   - e.g. string, number, binary, boolean, and null
 - Keys or index attributes only support string, number and binary scalar types
 
-|:---------:|:---------:|:---------:|
-| | | |
+| :---------: | :---------: | :---------: |
 | Scalar type | Characteristics | Examples |
 | String | - Stores text data - Only non-empty values | - "John" - "California" - "Fox in Socks" |
+| | | |
 
 ## 2. SET TYPES
 
