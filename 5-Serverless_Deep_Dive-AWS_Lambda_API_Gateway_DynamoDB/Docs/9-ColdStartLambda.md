@@ -21,7 +21,7 @@
 | Handler Code Loading | <ul><li>The handler code (entry point of the Lambda function) is loaded and executed</li> <li>This includes any initialization logic outside the handler function</li></ul> |
 | Initialization Code Execution | <ul><li>Code outside the handler function runs once per container</li> <li>This can include importing libraries, setting up connections, or loading configuration data</li> <li>This is also the best place to initialize resources that you want to reuse across multiple invocations</li></ul> |
 
-=> This is called <u>COLD START</u>
+<strong>This is called <ins>COLD START</ins></strong>
 
 ### (B) INVOCATION PHASE
 
