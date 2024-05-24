@@ -1,0 +1,23 @@
+{
+  "name": "dynamodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.583.0",
+    "@aws-sdk/lib-dynamodb": "^3.583.0",
+    "async": "^3.2.5",
+    "dotenv": "^16.4.5",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.24",
+    "@types/underscore": "^1.11.15"
+  }
+}
