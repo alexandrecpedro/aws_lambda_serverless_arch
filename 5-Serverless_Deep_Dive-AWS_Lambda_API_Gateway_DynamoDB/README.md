@@ -98,8 +98,6 @@ Technique for rolling out new versions of your backend application with minimal 
 | Route Traffic | Use a traffic management tool to route a small percentage of incoming traffic (e.g., 10%) to version B for the canary group. The rest of your users (90%) continue using version A |
 | Monitor Closely | Keep a close eye on key metrics like application performance, error rates, user behavior, and any negative feedback from the canary group. Tools can help you monitor these metrics for differences between versions A and B |
 | Evaluate and Decide | Based on your monitoring data, you can make an informed decision: <ul><li><strong>Success:</strong>If everything looks good with version B in the canary group, you can gradually increase the traffic percentage to expose it to a larger portion of users. Eventually, you can fully roll out version B to everyone</li> <li><strong>Issues Found:</strong>If you identify problems with version B during the canary deployment, you can quickly roll back traffic to version A and address the issues before releasing the new version again</li></ul> |
-| | |
-
 
 ## PROJECTS
 
