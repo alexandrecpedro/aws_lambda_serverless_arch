@@ -19,5 +19,5 @@
 - [2] [Using Environment Variables](./Projects/usingEnvVariables/)
 - [3] [Encrypt Environment Variables with KMS](./Projects/encryptEnvVariablesWithKms/)
 - [4] [Running Lambda Inside VPC](./Projects/runningLambdaInsideVPC/)
-- [] [Error Retries and DLQs in Action](./Projects/errorRetriesAndDLQs/)
+- [5] [Error Retries and DLQs in Action](./Projects/errorRetriesAndDLQs/)
 - [] []()
