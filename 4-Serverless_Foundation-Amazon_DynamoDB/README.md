@@ -75,17 +75,17 @@ DynamoDB is...
 
 **DynamoDB Basics**
 
-- [Terminology Comparison with SQL](./Docs/Terminology.md)
-- [Data Types](./Docs/DataTypes.md)
-- [Consistency Model](./Docs/ConsistencyModel.md)
-- [Capacity Units](./Docs/CapacityUnits.md)
-- [DynamoDB Partitions](./Docs/DynamoDB_Partitions.md)
-- [DynamoDB Indexes](./Docs/DynamoDB_Indexes.md)
-- [Item Level Operations](./Docs/ItemLevelOperations.md)
+- [1] [Terminology Comparison with SQL](./Docs/1-Terminology.md)
+- [2] [Data Types](./Docs/2-DataTypes.md)
+- [3] [Consistency Model](./Docs/3-ConsistencyModel.md)
+- [4] [Capacity Units](./Docs/4-CapacityUnits.md)
+- [5] [DynamoDB Partitions](./Docs/5-DynamoDB_Partitions.md)
+- [6] [DynamoDB Indexes](./Docs/6-DynamoDB_Indexes.md)
+- [7] [Item Level Operations](./Docs/7-ItemLevelOperations.md)
 
 ## PROJECTS
 
-- [DynamoDB Project](./dynamodb/)
+- [1] [DynamoDB Project](./dynamodb/)
 
 ## BIBLIOGRAPHICAL REFERENCES
 

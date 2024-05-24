@@ -16,7 +16,7 @@ aws sts get-caller-identity
 
 ## PROJECT
 
-[Get Random Message](./getRandomMessage/)
+- [1] [Get Random Message](./getRandomMessage/)
 
 ## BIBLIOGRAPHICAL REFERENCES
 
