@@ -49,4 +49,4 @@
 
 ### IMPORTANT
 
-<strong>Ps: Under <u>Execution role</u> field, make sure to use the same role selected for KMS key generation. In this case, <u>lambda_kms</u></strong>
+<strong>Ps: Under <ins>Execution role</ins> field, make sure to use the same role selected for KMS key generation. In this case, <ins>lambda_kms</ins></strong>

@@ -88,6 +88,6 @@ In anticipation of such potential scenario, DynamoDB reserves a portion of your 
 - Scaling Down: Up to 4 times per calendar day
 <!-- Calendar day = UTC time zone -->
 - <strong>Affects partition behavior (Important!)</strong>
-- 1 partition supports up to <u>1000 WCUs</u> or <u>3000 RCUs</u>
+- 1 partition supports up to <ins>1000 WCUs</ins> or <ins>3000 RCUs</ins>
 
 *Ps: happens asynchronously*
