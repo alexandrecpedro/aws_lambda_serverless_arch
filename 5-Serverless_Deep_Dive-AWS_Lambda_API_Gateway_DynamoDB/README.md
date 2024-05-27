@@ -11,7 +11,8 @@
 - [7] [Retry Behavior and DLQs](./Docs/7-RetryBehaviorAndDLQs.md)
 - [8] [Container Reuse](./Docs/8-ContainerReuse.md)
 - [9] [Cold Starts in AWS Lambda](./Docs/9-ColdStartLambda.md)
-- [] []()
+- [10] [API Gateway Access Control Options](./Docs/10-ApiGatewayAccessControl.md)
+- [11] [DynamoDB Stream and AWS Lambda Triggers](./Docs/11-DynamoDbStreams_LambdaTriggers.md)
 
 ## PROJECTS
 
@@ -20,4 +21,5 @@
 - [3] [Encrypt Environment Variables with KMS](./Projects/encryptEnvVariablesWithKms/)
 - [4] [Running Lambda Inside VPC](./Projects/runningLambdaInsideVPC/)
 - [5] [Error Retries and DLQs in Action](./Projects/errorRetriesAndDLQs/)
-- [] []()
+- [6] [Dynamic Lambda Handles](./Projects/lambdaHandlers/)
+- [7] [Generate Auth Tokens with Cognito User Pools](./Projects/generateAuthTokensWithCognitoUserPools/)
