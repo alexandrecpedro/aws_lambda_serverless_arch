@@ -8,6 +8,7 @@
   - stores all write activities in last 24-hour period
 
 - Examples
+
 | Types | Examples |
 | :---: | :------: |
 | Replication | replicating data from one region to another |
