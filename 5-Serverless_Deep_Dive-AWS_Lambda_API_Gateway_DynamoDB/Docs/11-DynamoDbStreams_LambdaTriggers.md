@@ -23,6 +23,13 @@
 | DynamoDB Streams SDK | |
 | AWS Lambda Triggers | We create triggers which are events that fire based on the activity within DynamoDB Streams |
 
+```plaintext
+Whenever are any changes to DynamoDB table items, if the DynamoDB Streams are enabled for the table, these changes will be written to the stream, which in turn will invoke a Lambda function
+
+The Lambda function will run the code to react to the DynamoDB item changes
+```
+
 ## BIBLIOGRAPHICAL REFERENCES
 
-- [] 
+- [1] DynamoDB Streams and AWS Lambda triggers - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html
+
