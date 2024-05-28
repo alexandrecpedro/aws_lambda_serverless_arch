@@ -20,14 +20,14 @@ Role description => "Allows API Gateway to push logs to CloudWatch Logs."
 11. Enter the role *apigateway_logs_role*
 12. Copy *Role ARN* identification
 
-## (B) SET ROLE TO RESOURCE
+## (B) PART 2 - SET ROLE TO RESOURCE
 
 1. Return to *API Gateway* services
 2. Choose *Settings*
 3. At *CloudWatch log role ARN*, enter the *Role ARN* identification copied previously
 4. Choose *Save*
 
-## (C) ENABLE CLOUDWATCH LOGS
+## (C) PART 3 - ENABLE CLOUDWATCH LOGS
 
 1. Go back to *hello-world* resource created previously
 2. Choose *Stages*

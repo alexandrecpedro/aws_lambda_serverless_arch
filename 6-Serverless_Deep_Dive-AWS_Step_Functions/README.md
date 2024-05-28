@@ -11,6 +11,7 @@
 - [7] [Other State Types in Step Functions](./Docs/07-OtherStateTypesInStepFunctions.md)
 - [8] [Error Handling in Step Functions with Retry and Catch](./Docs/08-ErrorHandlingStepFuncRetryCatch.md)
 - [9] [Invoking State Machine with API Gateway](./Docs/09-InvokingStateMachineAPIGateway.md)
+- [10] [Invoking State Machine with CloudWatch](./Docs/10-InvokingStateMachineCloudWatch.md)
 - [] []()
 
 ## PROJECTS
