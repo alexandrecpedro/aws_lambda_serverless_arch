@@ -17,8 +17,8 @@
 
 ## BIBLIOGRAPHICAL REFERENCES
 
-- [1] API Gateway mapping template and access logging variable reference - https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-mapping-template-reference.html
-- [2] Apache Velocity Template Language (Apache VTL) - https://velocity.apache.org/
-- [3] JSON Schema Documentation - https://json-schema.org/
-- [4] Swagger Hub - https://app.swaggerhub.com/
-- [5] Amazon API Gateway pricing - https://aws.amazon.com/api-gateway/pricing/
+- [1] [API Gateway mapping template and access logging variable reference](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-mapping-template-reference.html)
+- [2] [Apache Velocity Template Language (Apache VTL)](https://velocity.apache.org/)
+- [3] [JSON Schema Documentation](https://json-schema.org/)
+- [4] [Swagger Hub](https://app.swaggerhub.com/)
+- [5] [Amazon API Gateway pricing](https://aws.amazon.com/api-gateway/pricing/)

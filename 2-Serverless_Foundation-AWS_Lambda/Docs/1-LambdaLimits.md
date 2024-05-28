@@ -19,4 +19,4 @@ For more information, take a look at reference [1]
 
 ## 2. BIBLIOGRAPHICAL REFERENCES
 
-- [1] AWS Lambda quotas - https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html
+- [1] [AWS Lambda quotas](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)

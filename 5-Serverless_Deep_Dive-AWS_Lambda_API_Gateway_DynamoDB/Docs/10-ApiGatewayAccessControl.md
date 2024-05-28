@@ -351,9 +351,9 @@ aws cognito-idp admin-initiate-auth --cli-input-json file://<filename.json>
 
 ## 8. BIBLIOGRAPHICAL REFERENCES
 
-- [1] Generate and configure an SSL certificate for backend authentication - https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-client-side-ssl-authentication.html
-- [2] Configure a backend HTTPS server to verify the client certificate - https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-client-side-ssl-authentication.html#certificate-validation
-- [3] API Gateway resource policy examples - https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-resource-policies-examples.html
-- [4] Policy evaluation outcome tables - https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-authorization-flow.html#apigateway-resource-policies-iam-policies-interaction
-- [5] Amazon Cognito user pools - https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-identity-pools.html
-- [6] AWS Cognito CLI Reference - https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html?highlight=cognito
+- [1] [Generate and configure an SSL certificate for backend authentication](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-client-side-ssl-authentication.html)
+- [2] [Configure a backend HTTPS server to verify the client certificate](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-client-side-ssl-authentication.html#certificate-validation)
+- [3] [API Gateway resource policy examples](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-resource-policies-examples.html)
+- [4] [Policy evaluation outcome tables](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-authorization-flow.html#apigateway-resource-policies-iam-policies-interaction)
+- [5] [Amazon Cognito user pools](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-identity-pools.html)
+- [6] [AWS Cognito CLI Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html?highlight=cognito)

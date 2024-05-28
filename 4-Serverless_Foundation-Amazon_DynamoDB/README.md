@@ -89,10 +89,10 @@ DynamoDB is...
 
 ## BIBLIOGRAPHICAL REFERENCES
 
-- [1] Amazon DynamoDB - https://aws.amazon.com/dynamodb/
-- [2] AWS Free Tier - https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all
-- [3] Amazon DynamoDB pricing - https://aws.amazon.com/dynamodb/pricing/
-- [4] DynamoDB JavaScript SDK Documentation - https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/javascript_dynamodb_code_examples.html
-- [5] DynamoDB DocumentClient Class Documentation - https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/dynamodb-example-dynamodb-utilities.html
-- [6] Async NPM Module - https://caolan.github.io/async/v3/
-- [7] Underscore.js Documentation - https://underscorejs.org/
+- [1] [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+- [2] [AWS Free Tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)
+- [3] [Amazon DynamoDB pricing](https://aws.amazon.com/dynamodb/pricing/)
+- [4] [DynamoDB JavaScript SDK Documentation](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/javascript_dynamodb_code_examples.html)
+- [5] [DynamoDB DocumentClient Class Documentation](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/dynamodb-example-dynamodb-utilities.html)
+- [6] [Async NPM Module](https://caolan.github.io/async/v3/)
+- [7] [Underscore.js Documentation](https://underscorejs.org/)

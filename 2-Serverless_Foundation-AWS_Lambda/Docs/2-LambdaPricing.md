@@ -36,4 +36,4 @@ Total Charges = Request Charges + Compute Charges = ($ 0.8 / month) + ($ 1.67 / 
 
 ## 2. BIBLIOGRAPHICAL REFERENCES
 
-- [1] AWS Lambda Pricing - https://aws.amazon.com/lambda/pricing/
+- [1] [AWS Lambda Pricing](https://aws.amazon.com/lambda/pricing/)
