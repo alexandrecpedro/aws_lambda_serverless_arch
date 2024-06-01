@@ -7,7 +7,7 @@
 
 ## 2. NEW STEPS
 
-### i. ADD NEW STEPS TO THE PREVIOUS STATE MACHINE (BY CONSOLE)
+### (A) ADD NEW STEPS TO THE PREVIOUS STATE MACHINE (BY CONSOLE)
 
 - Go to *Step Functions* console
 - Enter the previous created state machine. In this case, *Helloworld*
@@ -29,7 +29,7 @@
 ```
 - Choose *Start execution*
 
-### ii. VISUAL WORKFLOW
+### (B) VISUAL WORKFLOW
 
 - In *Visual workflow*, you can see if the test was successful
 - In *Code*, you can see the corresponding ASL code

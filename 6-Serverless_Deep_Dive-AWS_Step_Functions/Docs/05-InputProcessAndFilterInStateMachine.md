@@ -13,7 +13,7 @@
 
 ## 2. TEST
 
-### i. SETTING AND EXECUTING THE TEST
+### (A) SETTING AND EXECUTING THE TEST
 
 - Choose *Start execution*
 <!-- Each time of running request a new name to be executed -->
@@ -35,7 +35,7 @@
 
 - Choose *Start execution*
 
-### ii. VISUAL WORKFLOW
+### (B) VISUAL WORKFLOW
 
 - In *Visual workflow*, you can see if the test was successful
 - In *Code*, you can see the corresponding ASL code

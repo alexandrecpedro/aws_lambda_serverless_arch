@@ -20,12 +20,12 @@ Look at reference [1]
 
 ## 2. KEY CONCEPTS
 
-### i. AMAZON STATE LANGUAGE (ASL)
+### (A) AMAZON STATE LANGUAGE (ASL)
 
 - Used to define the workflow
 - Define different states (steps) and interactions (connections) between these States
 
-### ii. STATE MACHINE
+### (B) STATE MACHINE
 
 - Workflow that defines a series of steps
 - Displayed in graphical format (flow chart)
@@ -33,7 +33,7 @@ Look at reference [1]
   - Allow retry operations based on different errors or certain conditions
   - Allow retrial with different logic depending on certain errors/conditions
 
-### iii. STATE
+### (C) STATE
 
 - Single step in a state machine
 - Types of states:
@@ -48,7 +48,7 @@ Look at reference [1]
 | <bold>Succeed</bold> | State that stops the execution and marks the workflow as successful |
 | <bold>Pass</bold> | State that passes its input to its output, performing no work |
 
-### iv. REFERENCES
+### (D) REFERENCES
 
 - Look at reference [2]
 
@@ -74,7 +74,7 @@ Automate routine jobs
 
 ## 5. EXAMPLE
 
-### i. CREATING A SIMPLE PROCESSING WORKFLOW
+### (A) CREATING A SIMPLE PROCESSING WORKFLOW
 
 | Process | Details |
 | :-------: | :-----: |
@@ -109,7 +109,7 @@ States:
     End: true
 ```
 
-### ii. PSEUDOCODE
+### (B) PSEUDOCODE
 
 ```json
 {

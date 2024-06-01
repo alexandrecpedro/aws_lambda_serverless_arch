@@ -7,7 +7,7 @@
 
 ## 2. TRIGGERING THE STATE MACHINE (BY API GATEWAY CONSOLE)
 
-### i. CREATE IAM ROLE FOR EXECUTION ROLE
+### (A) CREATE IAM ROLE FOR EXECUTION ROLE
 
 - Go to *IAM*
 - Go to *Roles*
@@ -25,7 +25,7 @@ Role description => "Allows API Gateway to push logs to CloudWatch Logs."
 
 - Choose *Create role*
 
-### ii. ATTACH POLICIES TO THE IAM ROLE CREATED
+### (B) ATTACH POLICIES TO THE IAM ROLE CREATED
 
 - Enter the role *APIGatewayStepFunctions*
 - Choose *Attach policies*
@@ -34,7 +34,7 @@ Role description => "Allows API Gateway to push logs to CloudWatch Logs."
 - Choose *Attach policy*
 - Copy *Role ARN* identification
 
-### iii. ADD HTTP POST METHOD
+### (C) ADD HTTP POST METHOD
 
 - Go to *API Gateway* console
 - Enter the Hello World API
@@ -62,7 +62,7 @@ Role description => "Allows API Gateway to push logs to CloudWatch Logs."
 
 ## 3. TEST WITH POSTMAN
 
-### i. REQUEST
+### (A) REQUEST
 
 - Enter the request URL (HTTP method = POST)
 - Under *Headers*, enter the following
@@ -82,7 +82,7 @@ Value = application/json
 - Choose *Save*
 - Send the request
 
-### ii. RESPONSE
+### (B) RESPONSE
 
 - Execution has started successfully
 

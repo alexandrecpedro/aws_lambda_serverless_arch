@@ -12,7 +12,8 @@
 - [8] [Error Handling in Step Functions with Retry and Catch](./Docs/08-ErrorHandlingStepFuncRetryCatch.md)
 - [9] [Invoking State Machine with API Gateway](./Docs/09-InvokingStateMachineAPIGateway.md)
 - [10] [Invoking State Machine with CloudWatch](./Docs/10-InvokingStateMachineCloudWatch.md)
-- [] []()
+- [11] [Invoking State Machine with AWS SDK](./Docs/11-InvokeStateMachineAwsSDK.md)
+- [12] [Step Functions Project - Building Image Processing Workflow](./Docs/12-StepFunctionsProject.md)
 
 ## PROJECTS
 
@@ -21,4 +22,5 @@
 - [3] [Task State in Step Functions](./Projects/taskStateStepFunctions/)
 - [4] [Input Processing and Filtering in State Machines](./Projects/inputProcessingAndFiltering/)
 - [5] [Output Processing and Filtering in State Machines](./Projects/outputProcessingAndFiltering/)
-- [] []()
+- [6] [Invoking State Machine with AWS SDK](./Projects/invokeStateMachineAwsSDK/)
+- [7] [Step Functions Project - Building Image Processing Workflow](./Projects/imageProcessingWorkflow/)

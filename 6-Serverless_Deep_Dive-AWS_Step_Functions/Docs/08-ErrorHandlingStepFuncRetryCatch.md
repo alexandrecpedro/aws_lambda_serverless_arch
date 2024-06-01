@@ -25,7 +25,7 @@ Built-in error codes / error names always begin with States.prefix
 
 ## 3. RETRYING AFTER AN ERROR (RETRIERS)
 
-### i. APPLICATION
+### (A) APPLICATION
 
 - Field *Retry*
   => for <ins>Task states</ins> and <ins>Parallel states</ins>
@@ -35,7 +35,7 @@ Built-in error codes / error names always begin with States.prefix
     (c) MaxAttempts <!-- number of retries (default = 3 retries) -->
     (d) BackoffRate <!-- multiplier by which the retry interval increases at every retry attempt -->
 
-### ii. EXAMPLE
+### (B) EXAMPLE
 
 ```json
 {
@@ -58,7 +58,7 @@ Built-in error codes / error names always begin with States.prefix
 
 ## 4. FALLBACK STATES (CATCHERS)
 
-### i. APPLICATION
+### (A) APPLICATION
 
 - Field *Catches*
   => for <ins>Task states</ins>, <ins>Parallel states</ins> or <ins>Map states</ins>
@@ -68,7 +68,7 @@ Built-in error codes / error names always begin with States.prefix
     (b) Next <!-- next state to redirect the control flow -->
     (c) ResultPath <!-- (optional) filter the input before send it to the next state -->
 
-### ii. EXAMPLE
+### (B) EXAMPLE
 
 ```json
 {
@@ -94,13 +94,13 @@ Built-in error codes / error names always begin with States.prefix
 
 ## 5. USING RETRIERS AMD CATCHERS TOGETHER
 
-### i. USING BOTH
+### (A) USING BOTH
 
 - In this case, the retry logic is executed first
 - Only if all retries have run, the control will be passed to the matching Fallback state
 (catch field)
 
-### ii. EXAMPLE
+### (B) EXAMPLE
 
 ```json
 {
@@ -118,6 +118,6 @@ Built-in error codes / error names always begin with States.prefix
 }
 ```
 
-## . BIBLIOGRAPHICAL REFERENCES
+## 6. BIBLIOGRAPHICAL REFERENCES
 
 - [1] [Error handling in Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/concepts-error-handling.html)
